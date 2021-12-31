@@ -7,6 +7,6 @@
   },
   "scripts": {
     "prettier": "prettier --write .",
-    "sass": "sass --style compressed sass/style.scss style.css"
+    "sass": "sass --style compressed style.scss style.css"
   }
 }
