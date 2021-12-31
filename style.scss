@@ -1,6 +1,6 @@
-$bg: #282a36;
-$text: #44475a;
-
+$bg:#282a36;
+$text:#44475a;
+$border:#6272a4;
 html {
   background-color: $bg;
   color: $text;
@@ -9,4 +9,6 @@ html {
 header {
   text-align: left;
   vertical-align: top;
+  border-color: $border;
+  border-radius: 50%;
 }
