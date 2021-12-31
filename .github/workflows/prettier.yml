@@ -10,7 +10,7 @@ jobs:
           ref: ${{ github.head_ref }}
       
       - name: Install node
-        uses: actions/setupnode@v2
+        uses: actions/setup-node@v2
       
       - name: Install dependencies
         run: npm install
