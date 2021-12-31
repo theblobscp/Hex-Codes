@@ -1,6 +1,7 @@
 $bg: #282a36;
 $text: #44475a;
 $border: #6272a4;
+$link: #8be9fd;
 html {
   background-color: $bg;
   color: $text;
@@ -11,4 +12,7 @@ header {
   vertical-align: top;
   border-color: $border;
   border-radius: 50%;
+}
+a {
+	color: $link;
 }
