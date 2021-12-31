@@ -6,6 +6,7 @@
     "sass": "^1.45.2"
   },
   "scripts": {
+    "prettier": "prettier --write .",
     "sass": "sass --style compressed sass/style.scss style.css"
   }
 }
