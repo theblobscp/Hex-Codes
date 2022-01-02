@@ -1,7 +1,7 @@
 name: Continuous Integration
 on: push
 jobs:
-  prettier:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -15,7 +15,7 @@ jobs:
         run: npm i -g sass
 
       - name: Build sass
-        run: npm sass
+        run: npm run sass
 
       - name: Prettify code
         uses: creyD/prettier_action@v4.1.1
