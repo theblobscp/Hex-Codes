@@ -1,10 +1,10 @@
 $bg: #282a36;
-$text: #44475a;
-$link: #8be9fd;
+$cur: #44475a;
+$cyan: #8be9fd;
 
 html {
   background-color: $bg;
-  color: $text;
+  color: $cur;
 }
 
 nav {
@@ -18,5 +18,5 @@ main {
   grid-row-end: 3;
 }
 a {
-  color: $link;
+  color: $cyan;
 }
