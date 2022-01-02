@@ -1,7 +1,7 @@
 $bg: #282a36;
 $text: #44475a;
-$border: black;
 $link: #8be9fd;
+
 html {
   background-color: $bg;
   color: $text;
@@ -10,8 +10,12 @@ html {
 nav {
   text-align: left;
   vertical-align: top;
-  border-color: $border;
-  border-radius: 50%;
+	border: 50% solid black;
+}
+main {
+	text-align: center;
+	grid-row-start: 1;
+	grid-row-end: 3;
 }
 a {
   color: $link;
