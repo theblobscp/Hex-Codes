@@ -10,12 +10,12 @@ html {
 nav {
   text-align: left;
   vertical-align: top;
-	border: 50% solid black;
+  border: 50% solid black;
 }
 main {
-	text-align: center;
-	grid-row-start: 1;
-	grid-row-end: 3;
+  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 a {
   color: $link;
