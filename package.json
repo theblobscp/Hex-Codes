@@ -8,5 +8,6 @@
   "scripts": {
     "prettier": "prettier --write .",
     "sass": "sass --style compressed style.scss style.css"
-  }
+  },
+  "private": true
 }
